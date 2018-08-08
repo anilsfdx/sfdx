@@ -15,7 +15,7 @@
     targetFields="{!v.accountRecord}"
     mode="VIEW"/>
     
-    <!-- Display a lightning card with details about the new  record -->
+    <!-- Display a lightning card with details about the new test record -->
 <div class="Record Details"> 
     <lightning:card iconName="standard:account" title="{!v.accountRecord.Name}" >
         <div class="slds-p-horizontal--small">
