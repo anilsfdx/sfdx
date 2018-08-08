@@ -1,0 +1,14 @@
+<aura:component  implements="flexipage:availableForAllPageTypes" controller="CampingListController">
+
+     <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
+    <aura:attribute name="columns" type="List" />
+    <aura:attribute name="tableData" type="Object[]" default="[]" />
+    <aura:attribute name="filterObject" type="String" />
+
+<lightning:datatable class="table" keyField="id" 
+                                         data="{!v.tableData}" 
+                                         columns="{!v.columns}" 
+                                         onrowaction="{! c.handleRowAction }"
+                                         />
+	
+</aura:component>

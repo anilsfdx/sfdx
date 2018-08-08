@@ -1,0 +1,20 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+
+    <aura:registerEvent name="CampaignFilterChange" type="c:CampaignFilterChange"/>
+
+    <lightning:layout >
+        <lightning:layoutItem >
+            <lightning:icon iconName="utility:feed" size="small" class="popup-icon"/>
+        </lightning:layoutItem>
+        <lightning:layoutItem >
+            <h3 class="slds-section__title">Filters</h3>
+        </lightning:layoutItem>
+    </lightning:layout>
+
+    
+
+    <c:AsstClassSelector onchange="{!c.assetClassChangeHandler}"/>
+
+    
+    
+</aura:component>

@@ -1,0 +1,64 @@
+<aura:component controller="CampingListController">
+    <aura:registerEvent name="addItem" type="c:addItemEvent"/>
+    <aura:attribute name="isOpen" type="boolean" default="false"/>
+     <aura:attribute name="next" type="boolean" default="false"/>
+     <aura:attribute name="back" type="boolean" default="true"/>
+     <aura:attribute name="message"    type="String"/> 
+    
+    <aura:attribute name="NewItem" type="Camping_Item__c"
+     default="{ 'sobjectType': 'Camping_Item__c',
+                    'Name': '',
+                    'Quantity__c': 1,
+                    'Price__c': 0,
+                    'Packed__c': false }"/>
+                    
+                    
+        <!-- CREATE NEW ITEM FORM -->
+    <aura:if isTrue="{!v.back}">    
+    <form class="slsd-form--stacked">
+            <lightning:input aura:id="campingform" label="Camping Name"
+                                     name="campingname"
+                                     value="{!v.NewItem.Name}"
+                                     required="true"/> 
+                    <lightning:input type="number" aura:id="campingform" label="Quantity"
+                                     name="campingQuantity"
+                                     min="1"                                    
+                                     step="1"
+                                     value="{!v.NewItem.Quantity__c}"
+                                     messageWhenRangeUnderflow="Enter an Quantity that's at least 1."/>
+                      <lightning:input type="number" aura:id="campingform" label="Price"
+                                     name="campingPrice"
+                                     min="0.1"
+                                     formatter="currency"
+                                     step="0.1"
+                                     value="{!v.NewItem.Price__c}"
+                                     messageWhenRangeUnderflow="Enter an Price that's at least 0.1."/>
+                                     
+                    <lightning:button label="Next" 
+                                      class="slds-m-top--medium"
+                                      variant="brand"
+                                      onclick="{!c.Next}"  />       
+      </form>  
+      </aura:if>   
+      <aura:if isTrue="{!v.next}">                              
+      <form class="slsd-form--stacked">                               
+                    <lightning:input type="checkbox" aura:id="campingformnext" label="Packed ?"  
+                                     
+                                     name="campingPacked"
+                                     checked="{!v.NewItem.Packed__c}"/>
+                    <lightning:button label="Create Camping" 
+                                      
+                                      iconPosition="left"
+                                      variant="brand"
+                                      onclick="{!c.CreateItem}"/>
+                                      
+                    <lightning:button label="Back" 
+                                      iconPosition="right"
+                                      variant="brand"
+                                      onclick="{!c.Back}"/>
+        </form>
+        </aura:if>  
+    <!-- / CREATE NEW ITEM FORM -->
+    
+    
+</aura:component>

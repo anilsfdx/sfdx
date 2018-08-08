@@ -1,0 +1,7 @@
+<aura:component  implements="flexipage:availableForAllPageTypes">
+    
+    <aura:attribute name="formatdate" type="Date"/>
+    <aura:attribute name="item" type="Camping_Item__c"/>
+
+    <lightning:tree items="{! v.items }" header="Roles"/>
+</aura:component>

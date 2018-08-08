@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BoatReviews</members>
+        <members>BoatSearchController</members>
+        <members>BoatSearchFormController</members>
+        <members>BoatSearchResults</members>
+        <members>CampingListController</members>
+        <members>ContactController</members>
+        <members>ContactsTodayController</members>
+        <members>ContactsTodayController_test</members>
+        <members>CreateOppty</members>
+        <members>FundController</members>
+        <members>FundControllerTest</members>
+        <members>GenerateData</members>
+        <members>GenerateDataTests</members>
+        <members>IntemController</members>
+        <members>OpportunityAlertController</members>
+        <members>OpportunityAlertController_test</members>
+        <members>RP_Dynamic_Table</members>
+        <members>RP_Test_DynamicDataTable</members>
+        <members>TestCreateOppty</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountsTab</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>Opportunity.Approval_for_Package_Deal</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>AddBoatReview</members>
+        <members>AssetClassSelector</members>
+        <members>AsstClassSelector</members>
+        <members>BoatDetail</members>
+        <members>BoatDetails</members>
+        <members>BoatHeader</members>
+        <members>BoatReviewAdded</members>
+        <members>BoatReviews</members>
+        <members>BoatSearch</members>
+        <members>BoatSearchEvent</members>
+        <members>BoatSearchForm</members>
+        <members>BoatSearchResults</members>
+        <members>BoatSelect</members>
+        <members>BoatSelected</members>
+        <members>BoatTile</members>
+        <members>CampaignFilter</members>
+        <members>CampaignFilterChange</members>
+        <members>CampingChart</members>
+        <members>CampingDataTable</members>
+        <members>CampingItem</members>
+        <members>CampingItembkp</members>
+        <members>CampingList</members>
+        <members>CampingListDS</members>
+        <members>CampingListbkp</members>
+        <members>CampingSelected</members>
+        <members>CampingTab</members>
+        <members>ChartEvent</members>
+        <members>ContactInf</members>
+        <members>ContactList</members>
+        <members>ContactListItemNew</members>
+        <members>ContactsToday</members>
+        <members>CreateOppty</members>
+        <members>Dynamic_DataTable</members>
+        <members>Dynamic_DataTable_Test</members>
+        <members>FiveStarRating</members>
+        <members>FormSubmit</members>
+        <members>FriendswithBoats</members>
+        <members>FundFilter</members>
+        <members>FundFilterChange</members>
+        <members>FundInfoPopup</members>
+        <members>FundTile</members>
+        <members>FundTileList</members>
+        <members>Gallery</members>
+        <members>Map</members>
+        <members>MedalsByCountry</members>
+        <members>MedalsByType</members>
+        <members>MedalsTimeline</members>
+        <members>OpportunityAlert</members>
+        <members>Paginator</members>
+        <members>PaginatorEvent</members>
+        <members>PercentReturnRange</members>
+        <members>PlotMapMarker</members>
+        <members>RangeChange</members>
+        <members>Rating</members>
+        <members>RealTimeChart</members>
+        <members>SearchBar</members>
+        <members>SectorSelector</members>
+        <members>ValueChange</members>
+        <members>accDisplay</members>
+        <members>accEdit</members>
+        <members>addItemEvent</members>
+        <members>camping</members>
+        <members>campingHeader</members>
+        <members>campingListForm</members>
+        <members>campingListItem</members>
+        <members>campingListItembkp</members>
+        <members>datatable</members>
+        <members>displaySobjectFields</members>
+        <members>hello</members>
+        <members>navigateToSObject</members>
+        <members>testanil</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>SelfSignedCert_11Apr2018_075110</members>
+        <name>Certificate</name>
+    </types>
+    <types>
+        <members>DataCloudGeoLocation</members>
+        <name>CleanDataService</name>
+    </types>
+    <types>
+        <members>Internal Zone</members>
+        <name>Community</name>
+    </types>
+    <types>
+        <members>Account.cmp1</members>
+        <members>Account.cmp2</members>
+        <members>Opportunity.New_Oppty_Compact_Layout</members>
+        <members>Suggestion__c.Suggestion</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>chartjslogo1</members>
+        <members>invest_logo4</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>ChartJS_Demo</members>
+        <members>Communications</members>
+        <members>DreamInvest</members>
+        <members>Relaxation_Gauntlet</members>
+        <members>Suggestion_Box</members>
+        <members>standard__AppLauncher</members>
+        <members>standard__Chatter</members>
+        <members>standard__Community</members>
+        <members>standard__Content</members>
+        <members>standard__LightningInstrumentation</members>
+        <members>standard__LightningSales</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
+        <members>standard__Marketing</members>
+        <members>standard__Platform</members>
+        <members>standard__Sales</members>
+        <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Sites</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Account.Active__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.NumberofLocations__c</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <members>Account.SLASerialNumber__c</members>
+        <members>Account.SLA__c</members>
+        <members>Account.UpsellOpportunity__c</members>
+        <members>BoatReview__c.Boat__c</members>
+        <members>BoatReview__c.Comment__c</members>
+        <members>BoatReview__c.Rating__c</members>
+        <members>Boat__c.BoatType__c</members>
+        <members>Boat__c.Contact__c</members>
+        <members>Boat__c.Description__c</members>
+        <members>Boat__c.Geolocation__c</members>
+        <members>Boat__c.Length__c</members>
+        <members>Boat__c.Picture__c</members>
+        <members>Boat__c.Price__c</members>
+        <members>Boat__c.Year_Built__c</members>
+        <members>Camping_Item__c.Packed__c</members>
+        <members>Camping_Item__c.Price__c</members>
+        <members>Camping_Item__c.Quantity__c</members>
+        <members>Case.EngineeringReqNumber__c</members>
+        <members>Case.Fulfillment__c</members>
+        <members>Case.PotentialLiability__c</members>
+        <members>Case.Product__c</members>
+        <members>Case.SLAViolation__c</members>
+        <members>Contact.Age__c</members>
+        <members>Contact.Languages__c</members>
+        <members>Contact.Level__c</members>
+        <members>Energy_Audit__c.Account__c</members>
+        <members>Energy_Audit__c.Annual_Energy_Usage_kWh__c</members>
+        <members>Energy_Audit__c.Audit_Notes__c</members>
+        <members>Energy_Audit__c.Average_Annual_Electric_Cost__c</members>
+        <members>Energy_Audit__c.Type_of_Installation__c</members>
+        <members>Expense__c.Amount__c</members>
+        <members>Expense__c.Client__c</members>
+        <members>Expense__c.Date__c</members>
+        <members>Expense__c.Reimbursed__c</members>
+        <members>Fulfillment__c.Address__c</members>
+        <members>Fulfillment__c.AdventurePackageId__c</members>
+        <members>Fulfillment__c.Adventure_Package_Cost__c</members>
+        <members>Fulfillment__c.Adventure__c</members>
+        <members>Fulfillment__c.Deposit__c</members>
+        <members>Fulfillment__c.Dietary_Restrictions__c</members>
+        <members>Fulfillment__c.Email__c</members>
+        <members>Fulfillment__c.Expedition_Leader__c</members>
+        <members>Fulfillment__c.Explorer__c</members>
+        <members>Fulfillment__c.Home_Phone__c</members>
+        <members>Fulfillment__c.Is_Exempt__c</members>
+        <members>Fulfillment__c.Lead_Marketer__c</members>
+        <members>Fulfillment__c.Mobile__c</members>
+        <members>Fulfillment__c.Opportunity__c</members>
+        <members>Fulfillment__c.Preferred_form_of_Contact__c</members>
+        <members>Fulfillment__c.Schedule_Date__c</members>
+        <members>Fulfillment__c.Special_Needs__c</members>
+        <members>Fulfillment__c.Status__c</members>
+        <members>Fulfillment__c.Submitted_Waiver__c</members>
+        <members>Fund__c.Abbreviation__c</members>
+        <members>Fund__c.Asset_Class__c</members>
+        <members>Fund__c.Five_Year_Return__c</members>
+        <members>Fund__c.One_Year_Return__c</members>
+        <members>Fund__c.Rating__c</members>
+        <members>Fund__c.Sector__c</members>
+        <members>Fund__c.Two_Year_Return__c</members>
+        <members>Fund__c.YTD_Return__c</members>
+        <members>Goal.OrigGoalId__c</members>
+        <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.NumberofLocations__c</members>
+        <members>Lead.Primary__c</members>
+        <members>Lead.ProductInterest__c</members>
+        <members>Lead.SICCode__c</members>
+        <members>Metric.OrigMetricId__c</members>
+        <members>Opportunity.Adventure_Cost__c</members>
+        <members>Opportunity.Application_Submitted__c</members>
+        <members>Opportunity.Country__c</members>
+        <members>Opportunity.CurrentGenerators__c</members>
+        <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.Discount__c</members>
+        <members>Opportunity.MainCompetitors__c</members>
+        <members>Opportunity.Needs_Insurance__c</members>
+        <members>Opportunity.Needs_Waiver__c</members>
+        <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.Promo_Code__c</members>
+        <members>Opportunity.TrackingNumber__c</members>
+        <members>OpportunityLineItem.Explorer__c</members>
+        <members>OpportunityLineItem.FulfillmentId__c</members>
+        <members>OpportunityLineItem.Fulfillment_Created__c</members>
+        <members>OpportunityLineItem.Fulfillment_State__c</members>
+        <members>OpportunityLineItem.Needs_Insurance__c</members>
+        <members>OpportunityLineItem.Needs_Waiver__c</members>
+        <members>Product2.Adventure_Rating__c</members>
+        <members>Product2.Boat_Dive__c</members>
+        <members>Product2.Canyoneering__c</members>
+        <members>Product2.City__c</members>
+        <members>Product2.Country__c</members>
+        <members>Product2.Day_Trip__c</members>
+        <members>Product2.Duration_Days__c</members>
+        <members>Product2.Duration_Nights__c</members>
+        <members>Product2.Expedition_Leader__c</members>
+        <members>Product2.Gear_Rental_Available__c</members>
+        <members>Product2.Lead_Marketer__c</members>
+        <members>Product2.List_Price__c</members>
+        <members>Product2.Max_Participants__c</members>
+        <members>Product2.Min_Cert_Needed__c</members>
+        <members>Product2.Minimum_Age__c</members>
+        <members>Product2.Needs_Insurance__c</members>
+        <members>Product2.Needs_Lead_Certification__c</members>
+        <members>Product2.Needs_Waiver__c</members>
+        <members>Product2.Overnight__c</members>
+        <members>Product2.Permits_Needed__c</members>
+        <members>Product2.Porters__c</members>
+        <members>Product2.Route_Type__c</members>
+        <members>Product2.Season__c</members>
+        <members>Product2.Shore_Dive__c</members>
+        <members>Product2.Special_Crew_Requests__c</members>
+        <members>Product2.State__c</members>
+        <members>Product2.Street__c</members>
+        <members>Product2.Types_Accepted__c</members>
+        <members>Product2.Zip__c</members>
+        <members>Sector__c.Sector_Id__c</members>
+        <members>Suggestion__c.Implemented_Date__c</members>
+        <members>Suggestion__c.Number_of_Days_Open__c</members>
+        <members>Suggestion__c.Status__c</members>
+        <members>Suggestion__c.Suggestion_Category__c</members>
+        <members>Suggestion__c.Suggestion_Description__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>AccountCleanInfo</members>
+        <members>AccountContactRole</members>
+        <members>Activity</members>
+        <members>Asset</members>
+        <members>AssetRelationship</members>
+        <members>AssistantProgress</members>
+        <members>BoatReview__c</members>
+        <members>BoatType__c</members>
+        <members>Boat__c</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Camping_Item__c</members>
+        <members>Case</members>
+        <members>CaseContactRole</members>
+        <members>CollaborationGroup</members>
+        <members>CollaborationGroupMember</members>
+        <members>Contact</members>
+        <members>ContactCleanInfo</members>
+        <members>ContentVersion</members>
+        <members>Contract</members>
+        <members>ContractContactRole</members>
+        <members>DandBCompany</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>EmailMessage</members>
+        <members>Energy_Audit__c</members>
+        <members>Event</members>
+        <members>ExchangeUserMapping</members>
+        <members>Expense__c</members>
+        <members>FeedItem</members>
+        <members>ForecastingCategoryMapping</members>
+        <members>Fulfillment__c</members>
+        <members>Fund__c</members>
+        <members>Idea</members>
+        <members>Lead</members>
+        <members>LeadCleanInfo</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>Opportunity</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityContactRole</members>
+        <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>OrgDeleteRequest</members>
+        <members>PartnerRole</members>
+        <members>Pricebook2</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
+        <members>QuickText</members>
+        <members>RecordAction</members>
+        <members>Scorecard</members>
+        <members>ScorecardAssociation</members>
+        <members>ScorecardMetric</members>
+        <members>Sector__c</members>
+        <members>Site</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>StreamingChannel</members>
+        <members>Suggestion__c</members>
+        <members>Task</members>
+        <members>Topic</members>
+        <members>TopicAssignment</members>
+        <members>User</members>
+        <members>UserProvisioningRequest</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>BoatReview__c-en_US</members>
+        <members>BoatType__c-en_US</members>
+        <members>Boat__c-en_US</members>
+        <members>Camping_Item__c-en_US</members>
+        <members>Contact-en_US</members>
+        <members>Energy_Audit__c-en_US</members>
+        <members>Expense__c-en_US</members>
+        <members>Fulfillment__c-en_US</members>
+        <members>Fund__c-en_US</members>
+        <members>OpportunityLineItem-en_US</members>
+        <members>Sector__c-en_US</members>
+        <members>Suggestion__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>TrailheaDX_Registration</members>
+        <name>CustomPageWebLink</name>
+    </types>
+    <types>
+        <members>BoatType__c</members>
+        <members>Boat__c</members>
+        <members>Campingitemnew</members>
+        <members>Contactnew</members>
+        <members>Energy_Audit__c</members>
+        <members>Friends_with_Boats</members>
+        <members>Fulfillment__c</members>
+        <members>Fund_Explorer</members>
+        <members>Fund__c</members>
+        <members>Interactive1</members>
+        <members>Key_Sales_Data</members>
+        <members>MyData</members>
+        <members>Real_Time</members>
+        <members>Sector__c</members>
+        <members>Suggestion__c</members>
+        <members>campaign_lightning</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>test</members>
+        <members>test/qqnYshNxxMtMAaJJYsJlscILPcDQLq</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Company_Images</members>
+        <members>Company_Images/LEX_Badge.png</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Duplicate_Rule</members>
+        <members>Contact.Standard_Contact_Duplicate_Rule</members>
+        <members>Lead.Standard_Lead_Duplicate_Rule</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <name>EscalationRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>Campingitemnew</members>
+        <members>ChartJS_Demo_UtilityBar</members>
+        <members>Communications_UtilityBar</members>
+        <members>Contactnew</members>
+        <members>DreamCapital_UtilityBar</members>
+        <members>Friends_with_Boats</members>
+        <members>Fund_Explorer</members>
+        <members>Group_Record_Page</members>
+        <members>Interactive</members>
+        <members>Key_Sales_Data</members>
+        <members>LightningSalesConsole_UtilityBar</members>
+        <members>LightningService_UtilityBar</members>
+        <members>MyData</members>
+        <members>Real_Time</members>
+        <members>Suggestion_Box_UtilityBar</members>
+        <members>campaign_lightning</members>
+        <members>test</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Fulfillment_Cancellation_Automation</members>
+        <members>Fulfillment_Cancellation_Automation-1</members>
+        <members>Fulfillment_Cancellation_Automation-2</members>
+        <members>Fulfillment_Creation</members>
+        <members>Fulfillment_Creation-1</members>
+        <members>Sales_Automation</members>
+        <members>Sales_Automation-1</members>
+        <members>Sales_Automation-2</members>
+        <members>Sales_Automation-3</members>
+        <members>Sales_Automation-4</members>
+        <members>Sales_Automation-5</members>
+        <members>Sales_Automation-6</members>
+        <members>Sales_Automation-7</members>
+        <members>Sales_Automation-8</members>
+        <members>Update_Status</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Fulfillment_Cancellation_Automation</members>
+        <members>Fulfillment_Creation</members>
+        <members>Sales_Automation</members>
+        <members>Update_Status</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>Asset_Class</members>
+        <members>Country</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>TrailheaDX Registration</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <members>DE Default</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>Account-Paloma Page Layout</members>
+        <members>Account-ohn Page Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>AssetRelationship-Asset Relationship Layout</members>
+        <members>BoatReview__c-BoatReview Layout</members>
+        <members>BoatType__c-Boat Type Layout</members>
+        <members>Boat__c-Boat Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Camping_Item__c-Camping Layout</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>CollaborationGroup-Group Layout</members>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContentVersion-Content Version Layout</members>
+        <members>Contract-Contract Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>EmailMessage-Email Message Layout</members>
+        <members>Energy_Audit__c-Energy Audit Layout</members>
+        <members>Event-Event Layout</members>
+        <members>Expense__c-Expense Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Fulfillment__c-Fulfillment Layout</members>
+        <members>Fund__c-Fund Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Lead-Lead %28Marketing%29 Layout</members>
+        <members>Lead-Lead %28Sales%29 Layout</members>
+        <members>Lead-Lead %28Support%29 Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Relaxation Gauntlet%29</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Adventure Package Layout %28Relaxation Gauntlet%29</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Product2-Adventure Layout %28Relaxation Gauntlet%29</members>
+        <members>Product2-Product Layout</members>
+        <members>QuickText-Quick Text Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardAssociation-Scorecard Association Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>Sector__c-Sector Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
+        <members>SocialPost-Social Post Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Suggestion__c-Suggestion Layout</members>
+        <members>Task-Task Layout</members>
+        <members>User-User Layout</members>
+        <members>UserAlt-User Profile Layout</members>
+        <members>UserProvAccount-User Provisioning Account Layout</members>
+        <members>UserProvisioningLog-User Provisioning Log Layout</members>
+        <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewLastWeek</members>
+        <members>Account.NewThisWeek</members>
+        <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>Activity.AllActivities</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <members>Activity.UpcomingEvents</members>
+        <members>Asset.AllAssets</members>
+        <members>BoatType__c.All</members>
+        <members>Boat__c.All</members>
+        <members>Campaign.AllActiveCampaigns</members>
+        <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllClosedCases</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>CollaborationGroup.All_ChatterGroups</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.MyContacts</members>
+        <members>Contact.NewLastWeek</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Contract.AllActivatedContracts</members>
+        <members>Contract.AllContracts</members>
+        <members>Contract.AllDraftContracts</members>
+        <members>Contract.AllInApprovalContracts</members>
+        <members>Contract.MyActivatedContracts</members>
+        <members>Contract.MyDraftContracts</members>
+        <members>Contract.MyInApprovalContracts</members>
+        <members>Energy_Audit__c.All</members>
+        <members>Fulfillment__c.All</members>
+        <members>Fund__c.All</members>
+        <members>Idea.Ideas_Last_7_Days</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Lead.ViewCustom1</members>
+        <members>Lead.ViewCustom2</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.High_Probability_Opportunities</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewLastWeek</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Private</members>
+        <members>Opportunity.Won</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
+        <members>Product2.AllProducts</members>
+        <members>Scorecard.AllScorecards</members>
+        <members>Scorecard.MyScorecards</members>
+        <members>Sector__c.All</members>
+        <members>SocialPersona.AllSocialPersonas</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
+        <members>Suggestion__c.All</members>
+        <members>Task.CompletedTasks</members>
+        <members>Task.DelegatedTasks</members>
+        <members>Task.OpenTasks</members>
+        <members>Task.OverdueTasks</members>
+        <members>Task.RecurringTasks</members>
+        <members>Task.TodaysTasks</members>
+        <members>Task.UnscheduledTasks</members>
+        <members>User.ActiveUsers</members>
+        <members>User.AdminUsers</members>
+        <members>User.AllUsers</members>
+        <members>WorkFeedbackRequest.AboutTopics</members>
+        <members>WorkFeedbackRequest.All</members>
+        <members>WorkFeedbackTemplate.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>Opportunity_Path</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <members>LightningExperiencePilotCommunications</members>
+        <members>LightningExperiencePilotSales</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Authenticated Website</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>Customer Community Login User</members>
+        <members>Customer Community Plus Login User</members>
+        <members>Customer Community Plus User</members>
+        <members>Customer Community User</members>
+        <members>Customer Portal Manager Custom</members>
+        <members>Customer Portal Manager Standard</members>
+        <members>External Identity User</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
+        <members>Gold Partner User</members>
+        <members>High Volume Customer Portal User</members>
+        <members>HighVolumePortal</members>
+        <members>Identity User</members>
+        <members>MarketingProfile</members>
+        <members>Partner App Subscription User</members>
+        <members>Partner Community Login User</members>
+        <members>Partner Community User</members>
+        <members>PlatformPortal</members>
+        <members>ReadOnly</members>
+        <members>Silver Partner User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <members>Work%2Ecom Only User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Case.LogACall</members>
+        <members>Case.NewChildCase</members>
+        <members>CollaborationGroup.NewGroupMember</members>
+        <members>CollaborationGroup.NewGroupRecord</members>
+        <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>Fulfillment__c.New_Expedition_Leader_Case</members>
+        <members>LogACall</members>
+        <members>NewAccount</members>
+        <members>NewCase</members>
+        <members>NewContact</members>
+        <members>NewEvent</members>
+        <members>NewGroup</members>
+        <members>NewLead</members>
+        <members>NewNote</members>
+        <members>NewOpportunity</members>
+        <members>NewTask</members>
+        <members>New_Suggestion</members>
+        <members>SendEmail</members>
+        <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
+        <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
+        <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
+        <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Account.rec1</members>
+        <members>Account.rec2</members>
+        <members>Account.test</members>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>ApexDevNet</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/New_Camping_Items_Report_m3H</members>
+        <members>unfiled$public/New_Opportunities_Report_8j3</members>
+        <members>unfiled$public/New_and_Existing_Business</members>
+        <members>unfiled$public/Opps_by_Stage</members>
+        <members>unfiled$public/Suggestions_By_Status</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>CEO</members>
+        <members>CFO</members>
+        <members>COO</members>
+        <members>ChannelSalesTeam</members>
+        <members>CustomerSupportInternational</members>
+        <members>CustomerSupportNorthAmerica</members>
+        <members>DirectorChannelSales</members>
+        <members>DirectorDirectSales</members>
+        <members>EasternSalesTeam</members>
+        <members>InstallationRepairServices</members>
+        <members>MarketingTeam</members>
+        <members>SVPCustomerServiceSupport</members>
+        <members>SVPHumanResources</members>
+        <members>SVPSalesMarketing</members>
+        <members>VPInternationalSales</members>
+        <members>VPMarketing</members>
+        <members>VPNorthAmericanSales</members>
+        <members>WesternSalesTeam</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Asset</members>
+        <members>BoatType__c</members>
+        <members>Campaign</members>
+        <members>Camping_Item__c</members>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>Energy_Audit__c</members>
+        <members>Expense__c</members>
+        <members>FlowInterview</members>
+        <members>Fulfillment__c</members>
+        <members>Lead</members>
+        <members>ListEmail</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>Sector__c</members>
+        <members>Suggestion__c</members>
+        <members>User</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>ChartJS23</members>
+        <members>DataCache</members>
+        <members>Dynamic_DataTable</members>
+        <members>Houseboats</members>
+        <members>Leaflet</members>
+        <members>OlympicDataService</members>
+        <members>PleasureBoats</members>
+        <members>Sailboats</members>
+        <members>boats</members>
+        <members>fivestar</members>
+        <members>nouislider</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Asset</members>
+        <members>BoatReview__c</members>
+        <members>BoatType__c</members>
+        <members>Boat__c</members>
+        <members>Campaign</members>
+        <members>Camping_Item__c</members>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>ContentDocument</members>
+        <members>Contract</members>
+        <members>Energy_Audit__c</members>
+        <members>Event</members>
+        <members>Expense__c</members>
+        <members>Fulfillment__c</members>
+        <members>Fund__c</members>
+        <members>Lead</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>Sector__c</members>
+        <members>Solution</members>
+        <members>Suggestion__c</members>
+        <members>Task</members>
+        <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>Suggestion__c.Date_in_Range</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Contact.Google_Info</members>
+        <members>Opportunity.DeliveryStatus</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>Opportunity</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Opportunity.discount</members>
+        <members>Opportunity.discount_new</members>
+        <members>Opportunity.reject</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>FieldService</members>
+        <members>FileUploadAndDownloadSecurity</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Macro</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrgPreference</members>
+        <members>PathAssistant</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Search</members>
+        <members>Security</members>
+        <members>SocialCustomerService</members>
+        <name>Settings</name>
+    </types>
+    <version>41.0</version>
+</Package>

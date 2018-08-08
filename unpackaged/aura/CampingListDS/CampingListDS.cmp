@@ -1,0 +1,85 @@
+<aura:component implements="flexipage:availableForAllPageTypes" controller="CampingListController">
+    <aura:attribute name="items" type="Camping_Item__c[]" />
+    <aura:attribute name="NewItem" type="Camping_Item__c" default="{'Name':'',
+                                                                   'Quantity__c':0,
+                                                                   'Price__c':0,
+                                                                   'Packed__c':false,
+                                                                   'sobjectType':'Camping_Item__c'}" />
+    <aura:attribute name="Camping_Item__c" type="Object" />
+    <aura:attribute name="accountError" type="String" />
+    <force:recordData aura:id="campaigldr" 
+                      recordId="{!v.recordId}" 
+                      fields="Name,Quantity__c,Price__c,Packed__c" 
+                      targetRecord="{!v.campingitem}" 
+                      targetError="{!v.campingError}" />
+    <!-- NEW Camping FORM -->
+    <aura:attribute name="message" type="String" />
+    <aura:attribute name="isOpen" type="boolean" default="false" />
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}" />
+
+    <aura:handler name="addItem" event="c:addItemEvent" action="{!c.handleAddItem }" />
+
+    <div class="slds-col slds-col--padded slds-p-top--large">
+
+
+        <div class="slds-col slds-col--padded slds-p-top--large">
+
+            <c:campingListForm />
+
+        </div>
+
+
+    </div>
+
+    <div class="col-md-4 text-center">
+        {!v.message}
+    </div>
+
+    <aura:if isTrue="{!v.isOpen}">
+
+
+        <div class="demo-only" style="height: 640px;">
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Modal Header</h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <p>Record created Succesfully</p>
+
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick="{!c.closeModel}">Close</button>
+
+                    </footer>
+                </div>
+
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+
+
+    </aura:if>
+
+    
+
+
+    <!-- ITERATING ITEM LISTS -->
+    <div class="slds-card slds-p-top--medium">
+        <header class="slds-card__header">
+
+            <h3 class="slds-text-heading--small">Items</h3>
+
+        </header>
+
+        <section class="slds-card__body">
+            <div id="list" class="row">
+                <aura:iteration items="{!v.items}" var="item">
+                    <c:campingListItem item="{!item}" />
+                </aura:iteration>
+            </div>
+        </section>
+    </div>
+    <!-- / ITERATIING ITEM LISTS -->
+</aura:component>

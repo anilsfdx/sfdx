@@ -1,0 +1,36 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForAllPageTypes" access="global" >
+    
+    <ltng:require scripts="{!$Resource.ChartJS23}"
+                  afterScriptsLoaded="{!c.scriptsLoaded}" />
+    
+    <aura:attribute name="Items" type="Camping_Item__c" default="[]"/>
+    
+    <aura:handler name="change" value="{!v.mixItems}" action="{!c.mixItemsChangeHandler}"/>
+    
+    <lightning:layout >
+        <lightning:layoutItem >
+            <div class="chart">
+                <canvas aura:id="chart" height="60" width="60"></canvas>
+            </div>
+        </lightning:layoutItem>
+        <lightning:layoutItem class="slds-text-body_small">
+            <lightning:layout verticalAlign="center">
+                <lightning:layoutItem padding="horizontal-small">
+                    <div class="Packed"/>
+                </lightning:layoutItem>
+                <lightning:layoutItem >
+                    PACKED
+                </lightning:layoutItem>
+            </lightning:layout>
+            <lightning:layout verticalAlign="center">
+                <lightning:layoutItem padding="horizontal-small">
+                    <div class="Unpacked"/>
+                </lightning:layoutItem>
+                <lightning:layoutItem >
+                    UNPACKED
+                </lightning:layoutItem>
+            </lightning:layout>
+            </lightning:layoutItem>
+    </lightning:layout>    
+    
+</aura:component>
