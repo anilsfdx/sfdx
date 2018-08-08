@@ -15,7 +15,7 @@
     targetFields="{!v.accountRecord}"
     mode="VIEW"/>
     
-    <!-- Display a lightning card with details about the record -->
+    <!-- Display a lightning card with details about the new  record -->
 <div class="Record Details"> 
     <lightning:card iconName="standard:account" title="{!v.accountRecord.Name}" >
         <div class="slds-p-horizontal--small">
@@ -27,6 +27,7 @@
                 <lightning:formattedPhone title="Phone" value="{!v.accountRecord.Phone}" /></p>
         </div>
     </lightning:card>
+    
 </div>
 
 <!-- Display Lightning Data Service e -->
